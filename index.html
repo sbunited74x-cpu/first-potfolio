@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBX's portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e96222ec5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"  >
+    <div class="container">
+        <nav>
+            <img style="width: 15%; height:15%;" src="img/m.png " class="logo">
+            <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Desiner</p>
+            <h1>Hi, <span>I'm SBX</span> <br>From Nigeria</h1>
+
+        </div>
+    </div>
+</div>
+<!-- -------about------- -->
+
+<div id="about">
+    <div class="container ">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/ha.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi,don't mind the picture in my home screen it's just a character from a cool Game.
+                    Anyway,  My name is Enumah Chidera Emmanuel i'm 17 years old i'm a graduate of Anglican Comprehensive High School ipaga,lagos state in the country Nigeria <span style="color: rgb(235, 125, 125);">(ANCOHS).</span>
+                I am a font developer and a gamer by profession,I Design website, buit application , software and play games for a living.  </p>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                <li><span>Front-End development</span><br> developing Front-End application or softwares</li>
+                <li><span>Gaming</span><br>Playing Games</li>
+
+            </ul>
+        </div>
+         <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>NIL</span></li>
+            </ul>
+        </div>
+         <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2025-current</span><br>Programming And Web Development learning</li>
+                <li><span>2019-2025</span><br>Attended Aglican Comprehensive High Shool</li>
+            </ul>
+        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----services------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title" style="color: rgb(241, 147, 39);">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>i design amazing website for my Client.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="frontend-icon">
+                <i class="fa-solid fa-object-group"></i>
+                <h2>Front-End Development</h2>
+                <p>I develop font-end application for clients.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Gaming</h2>
+                <p>i test and play game Applications./</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- ----------portfolio---------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title" style="color: rgb(241, 147, 39);">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/gaming.jpg">
+                <div class="layer">
+                    <h3> Gaming</h3>
+                    <p>Testing and playing Games.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/Ui.jpg">
+                 <div class="layer">
+                    <h3> Web Designing</h3>
+                    <p>Designing website for Client.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/ext.jpg">
+                 <div class="layer">
+                    <h3> Front-End Developing</h3>
+                    <p>Developing Front-End Applications For Client.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----contact-------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sbunited74x@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>09168225913</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="img/Document.rtf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright ©sbx. made by sbx hunter<i class="fa-solid fa-face-smile-wink"></i></p>
+    </div>
+ </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzyS-7KANlfcq4gnrcz3gr2f2JB9d1UporhRd4M9_ixBO9amwIdOP64MpXspcAdFeI/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+</body>
+</html>
